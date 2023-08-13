@@ -8,6 +8,11 @@ Además se deben setear las variables de entorno `GITHUB_CLIENT_ID` y `GITHUB_CL
 - `npm start`: Levanta el proyecto en el puerto 8080.
 - `npm run dev`: Levanta el proyecto y actualiza el servidor con cada cambio guardado.
 
+## Demo
+https://github.com/NicoCieri/desafio-clase-21/assets/14900103/306f2dde-6e80-4197-970d-f53c06cb467e
+
+
+
 ## Vistas actualizadas
 
 - [localhost:8080/login](http://localhost:8080/login): Login de usuario, ahora con botón de login con Github.
