@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 
-export const connectionString = "mongodb://localhost:27017/ecommerce";
+// export const connectionString = "mongodb://localhost:27017/ecommerce";
 
 dotenv.config();
 
@@ -12,7 +12,7 @@ if (!dbUser || !dbPassword) {
   throw new Error("Please specify DB_USER and DB_PASSWORD in .env");
 }
 
-// export const connectionString = `mongodb+srv://${dbUser}:${dbPassword}@cluster0.fqacb1a.mongodb.net/ecommerce?retryWrites=true&w=majority`;
+export const connectionString = `mongodb+srv://${dbUser}:${dbPassword}@cluster0.fqacb1a.mongodb.net/ecommerce?retryWrites=true&w=majority`;
 
 try {
   await mongoose.connect(connectionString);
